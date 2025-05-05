@@ -90,7 +90,7 @@ export function useTheme() {
   const context = useContext(ThemeContext)
 
   if (!context) {
-    throw new Error('[umbra] useTheme must be used within ThemeProvider')
+    throw new Error('[seiun] useTheme must be used within ThemeProvider')
   }
 
   return context
@@ -100,7 +100,7 @@ export function useSetTheme() {
   const context = useContext(SetThemeContext)
 
   if (!context) {
-    throw new Error('[umbra] useSetTheme must be used within ThemeProvider')
+    throw new Error('[seiun] useSetTheme must be used within ThemeProvider')
   }
 
   return context

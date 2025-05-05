@@ -1,6 +1,6 @@
-# umbra
+# seiun
 
-Umbra is a simple library built for NextJS that manages dark/light themes using cookies instead of the traditional local storage for better SSR support. Features:
+Seiun (from 星雲 that means "nebula") is a simple library built for NextJS that manages dark/light themes using cookies instead of the traditional local storage for better SSR support. Features:
 
 1. Theme usage on the server-side using NextJS cookies
 2. Theme usage on the client-side using a hook
